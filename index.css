@@ -1,0 +1,79 @@
+/* Add screen styles below */
+body {
+    background: #EBEBEB;
+    margin: 0;
+}
+
+header {
+    background: #A8CCC9;
+    padding: 10px;
+}
+
+h1 {
+    color: #FFA69E;
+    font-size: 48px;
+}
+
+p {
+  font-size: 24px;
+  padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0 175px 0 175px;
+  overflow: hidden;
+}
+
+li {
+    float: left;
+    padding: 0 100px 0 100px;
+  }
+
+  li a {
+    display: block;
+    color: #545863;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar {
+    float: right;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 100px;
+  }
+
+.slideshow-container {
+  max-width: 400px;
+  padding: 60px;
+  float: left;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.floatleft {
+  float: left;
+  padding: 0 60px 40px 60px;
+}
+.what {
+  float: left;
+  width: 40%;
+}
+.contactus {
+  float: right;
+  width: 45%;
+}
+.who {
+  padding: 0 50px 0 50px;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

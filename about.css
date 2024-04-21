@@ -1,0 +1,169 @@
+/* Add screen styles below */
+body {
+    background: #EBEBEB;
+    margin: 0;
+}
+
+header {
+    background: #A8CCC9;
+    padding: 10px;
+}
+
+h1 {
+    color: #FFA69E;
+    font-size: 48px;
+}
+
+p {
+    font-size: 24px;
+    padding: 15px;
+  }
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0 175px 0 175px;
+  overflow: hidden;
+}
+
+li {
+    float: left;
+    padding: 0 100px 0 100px;
+  }
+
+  li a {
+    display: block;
+    color: #545863;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar {
+    float: right;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 100px;
+  }
+
+  .floatleft {
+    padding: 0 60px 40px 60px;
+  }
+
+  .getting h1 {
+    text-align: center;
+  }
+
+  .getting {
+    padding: 40px;
+  }
+
+  .what {
+    float: left;
+    width: 40%;
+  }
+  .inquiry {
+    float: right;
+    width: 45%;
+  }
+  .creativep {
+    float: right;
+    width: 45%;
+    padding-bottom: 60px;
+  }
+  .supplyp {
+    float: left;
+    width: 45%;
+    padding-bottom: 60px;
+  }
+
+ #description {
+    width: 450px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    resize: none;
+ }
+ #fname {
+    width: 200px;
+    height: 45px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    resize: none;
+ }
+
+ #lname {
+    width: 200px;
+    height: 45px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    resize: none;
+ }
+
+ #email {
+    width: 400px;
+    height: 45px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    resize: none;
+ }
+
+ #pnumber {
+    width: 200px;
+    height: 45px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    resize: none;
+ }
+
+ #submit {
+    float: right;
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 20px;
+ }
+ 
+ .fninput {
+    padding: 20px;
+ }
+
+ .lninput {
+    padding: 20px;
+ }
+
+ .emailinput {
+    padding: 20px;
+ }
+
+ .numberinput {
+    padding: 20px;
+ }
+
+ .dinput {
+    padding: 20px;
+ }
+ .sbutton {
+    padding-right: 30px;
+    padding-top: 20px;
+ }
+
+ #spdetails {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 12px;
+ }
+ #cpdetails {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    font-size: 12px;
+ }
+
+

@@ -4,17 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Page</title>
-    <link rel="stylesheet" href="screen.css">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
   </head>
   <body>
-    <h1>About Page</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
+    <header>
+      <img src="Logo.png" alt="picture of logo">
+      <section class="navbar">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <section class="getting">
+      <h1>Getting To Know The Owners</h1>
+
+      <p>Family and Friend Creations was founded by Barbara & Destini. Barbara, the mother, has always been creative one of her hobbies over the years is building functional model homes for display. Whenever the family had an event they would always look to Barbara for her creative input, she retired a few years ago and discovered she had a lot more free time to utilize her creative abilities. Destini, the daughter, is a student pursuing her masters degree in User Experience where she focuses on user/consumer focused research. The both of them have been best friends and inseparable since Destini was born and decided that combining their skills, experiences, and knowledge could create something beautiful, and Family and Friend was born.</p>
+    </section>
+    <section class="floatleft">
+      <div class="what">
+        <h1>What We Offer</h1>
+        <p><b>See some of our packages below, <u> pricing is estimated per event:</u></b></p>
+        <p>
+          <b>Supply Package:</b><br> 
+          Our supply package focuses on providing all supplies that are needed for a successful event. For more information on this package select the details button below. 
+        </p>
+        <p>
+          <b>Creative Package:</b> <br>
+          Our creative package focuses on providing all creative aspects needed for a successful event. For more information on this package select the details button below. 
+        </p>
+        <div class="supplyp">
+          <img src="aboutsupply.png" alt="Photo of Thrown Chair">
+          <button type="button" onclick="alert('You pressed the button!')" id="spdetails">Supply Package Details</button>
+        </div>
+        <div class="creativep">
+          <img src="aboutcreative.png" alt="Photo of Custom Punch Labels">
+          <button type="button" onclick="alert('You pressed the button!')" id="cpdetails">Creative Package Details</button>
+        </div>
+      </div>
+      <div class="inquiry">
+        <h1>Customer Inquiry</h1>
+        <form>
+          <div class="fninput">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+          </div>
+
+          <div class="lninput">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br>
+          </div>
+          
+          <div class="emailinput">
+            <label for="email">E-Mail:</label>
+            <input type="text" id="email" name="email"><br>
+          </div>
+
+          <div class="numberinput">
+            <label for="pnumber">Phone Number:</label>
+            <input type="text" id="pnumber" name="pnumber"><br>
+          </div>
+
+          <div class="dinput">
+            <label for="description">Brief Description:</label>
+            <input type="text" id="description" name="description"><br>
+          </div>
+          <div class="sbutton">
+            <input type="submit" id="submit">
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>

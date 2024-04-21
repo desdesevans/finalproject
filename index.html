@@ -5,16 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
+    <header>
+        <img src="Logo.png" alt="Picture of Logo">
+      <section class="navbar">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="labels.png" style="width:333.09px">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="chair.png" style="width:397px">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="holders.png" style="width:333px">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="pins.png" style="width:333px">
+      </div>
+      
+      </div>
+      <br>
+      
+      <script>
+      let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex-1].style.display = "block";  
+        setTimeout(showSlides, 2000);
+      }
+      </script>
+      <section class="who">
+        <h1>Who Are We?</h1>
+        <p>Family & Friend Creations is a family owned business that was created by mother and daughter. Their dedication to family events eventually led to the creation of an event planning company that your family can hire for your events. Here at Family & Friend we offer various services and products to bring your dream event to life. We have experience with baby showers, weddings, anniversaries, and more. Check out our About Us page for more information regarding packages and to submit an inquiry about your upcoming event that you would like us to be apart of. </p>
+      </section>
+    <section class="floatleft">
+      <div class="what">
+        <h1>What We Do?</h1>
+        <p>When you hire Family & Friend Creations you have the choice of how involved you want us to be. We provide full planning services that include everything your event will need from invitations, decorations, food, etc. we will be there from beginning to end. We also provide services separately if you would like a customized experience. </p>
+      </div>
+      <div class="contactus">
+        <h1>Contact Us</h1>
+        <p>Feel free to contact us or stop by our location to speak with one of our team members: </p>
+        <p>
+          <b>contact@fandfcreations.com</b>
+        </p>
+        <p>
+          <b>(800) 321-0000</b><br>
+        </p>
+        <p> 
+          <b>3243 Family Boulevard <br>
+          Lansing, MI 48911</b>
+        </p>
+          </div>
+    </section>
   </body>
 </html>
