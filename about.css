@@ -19,7 +19,7 @@ p {
     padding: 15px;
   }
 
-ul {
+ul.navigation {
     list-style-type: none;
   margin: 0;
   padding: 0 175px 0 175px;
@@ -65,16 +65,6 @@ li {
   .inquiry {
     float: right;
     width: 45%;
-  }
-  .creativep {
-    float: right;
-    width: 45%;
-    padding-bottom: 60px;
-  }
-  .supplyp {
-    float: left;
-    width: 45%;
-    padding-bottom: 60px;
   }
 
  #description {
@@ -166,4 +156,42 @@ li {
     font-size: 12px;
  }
 
+.packages {
+   float: left;
+   padding: 50px;
+   width: 100%;
+}
+
+.creative {
+   float: right;
+   width: 45%;
+}
+.supply {
+   float: left;
+    width: 45%;
+}
+
+.slist {
+
+}
+
+#creativep {
+   float: left;
+}
+#supplyp {
+   float: left;
+}
+
+ul {
+   padding-left: 250px;
+}
+
+h3 {
+   padding-left: 210px;
+   padding-bottom: 20px;
+}
+
+.packages p {
+   text-align: center;
+}
 
